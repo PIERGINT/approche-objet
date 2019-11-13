@@ -1,5 +1,9 @@
 package utils;
 
+/** Appel de méthodes sttatic
+ * @author pierre
+ *
+ */
 public class ConversionNombre {
 
 	public static void main(String args[]) {
