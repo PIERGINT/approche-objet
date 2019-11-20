@@ -39,6 +39,8 @@ public class Compte {
 			Compte other = (Compte) object;
 			return numcompte==other.getNumcompte()&& soldecompte==other.getSoldecompte();
 			}
+		
+		
 
 		
 			

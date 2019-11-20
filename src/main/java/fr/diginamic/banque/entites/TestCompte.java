@@ -24,6 +24,8 @@ public class TestCompte {
 		}
 		
 		// Comparaison des comptes avec la méthode equals.
+		//
+		
 		Compte compte1 = new Compte(555444, 3000);
 		
 		Compte compte2 = new Compte(555444, 3000);
