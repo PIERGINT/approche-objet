@@ -33,31 +33,14 @@ public class TriPays {
 		listepays.add(new Pays("Russie", 146544710, 27900));
 		listepays.add(new Pays("Inde", 1355621800, 5174));
 		
-		System.out.println("Affichage par valeurs croissantes de PIB :");
+		System.out.println("Affichage des pays par ordre alphabétique :");
 		int i = 0;
 		for (i = 0; i < listepays.size(); i++) {
 
 			Collections.sort(listepays);
 
-			System.out.println(listepays.get(i).getPibhab());
+			System.out.println(listepays.get(i).getNom());
 		}
 		
-		System.out.println("Affichage par nombre croissant d'habitants :");
-		
-		for (i = 0; i < listepays.size(); i++) {
-
-			Collections.sort(listepays, new ComparatorHabitant());
-
-			System.out.println(listepays.get(i).getNbhab());
-		}
-		
-		System.out.println("Affichage par valeurs croissantes de PIB :");
-		for (i = 0; i < listepays.size(); i++) {
-
-			Collections.sort(listepays, new ComparatorPibHabitant());
-
-			System.out.println(listepays.get(i).getPibhab());
-		}
-		
-	}
+			}
 }
