@@ -11,10 +11,13 @@ import java.util.Comparator;
 import sets.Pays;
 import java.lang.Comparable;
 /*
- * Créez une classe ComparatorHabitant qui implémente l’interface Comparator<Pays>.
-Implémentez la méthode compareTo pour faire un tri sur le nombre d’habitants
-Créer une classe ComparatorPibHabitant qui tri sur le PIB/hab.
-Réalisez un tri avec un des 2 comparators et affichez le résultat
+ * Creez un package tri.
+Reprenez la classe Pays du TP précédent et implémentez l’interface Comparable<Pays>.
+Implémentez la méthode compareTo de manière à ce que le tri se fasse sur le nom du
+pays (par ordre alphabétique)
+Creez une ArrayList et remplissez là avec l’ensemble des pays du TP précédent
+Triez la liste
+Affichez le résultat afin de vérifier que les pays sont bien triés dans l’ordre alphabétique.
 Réalisez le second tri avec le second comparator et affichez le résultat
  */
 public class TriPays {
